@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-background: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-background: #413636;
+    }
+}
+
+body {
+    background-color: var(--clr-background);
+}
